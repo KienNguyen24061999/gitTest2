@@ -1,5 +1,28 @@
 public class Student {
+<<<<<<< HEAD
     private String name11111;
+    private String age;
+
+    public Student(String name11111, String age) {
+        this.name11111 = name11111;
+        this.age = age;
+=======
+    private String name;
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public Student(String name, String address) {
+        this.name = name;
+        this.address = address;
+>>>>>>> 450cc29805cdd46fb1115f6029a76e337c79da2e
+    }
 
     public Student(String name) {
         this.name11111 = name;
@@ -11,5 +34,21 @@ public class Student {
 
     public void setName(String name) {
         this.name11111 = name;
+    }
+
+    public String getName11111() {
+        return name11111;
+    }
+
+    public void setName11111(String name11111) {
+        this.name11111 = name11111;
+    }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
     }
 }
