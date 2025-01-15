@@ -20,7 +20,7 @@ public class Shopper {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(int age1) {
         this.age = age;
     }
 
